@@ -48,12 +48,17 @@ const SearchBar = ({ setResults }) => {
 
 // SearchResult Component
 const SearchResult = ({ result, onClick }) => {
+  const handleResultClick = () => {
+    onClick(result.name);
+  };
+
   return (
-    <div className="search-result" onClick={() => onClick(result.name)}>
+    <div className="search-result" onClick={handleResultClick}>
       {result.name}
     </div>
   );
 };
+
 
 // SearchResultsList Component
 const SearchResultsList = ({ results, handleResultClick }) => {

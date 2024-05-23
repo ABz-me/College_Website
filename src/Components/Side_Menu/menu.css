@@ -1,6 +1,6 @@
 .side-menu{
     font-family: Poppins;
-    position: relative;
+    position: fixed;
     top: 10vh;
     height: 90vh;
     width: 25vw;
@@ -71,17 +71,51 @@
     font-weight: 300;
     list-style: none;
   }
-  .recent-points li::before{
-    content: "_ ";
-    color: red;
-  }
   .recent-points li:hover{
     text-decoration: underline;
-    color: red;
   }
-  .recent-search span {
+  .recent-points li::before{
+      content: "_ ";
+      color: red;
+    }
+    .recent-search span {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-thickness: 3px;
   }
+  @media (max-width: 1023px){
+    .side-menu{
+        display: none;
+    }
+  }
+  .featured-topic span{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+  }
+  .featured-topic{
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .featured-topic li {
+    font-weight: 300;
+    list-style: none;
+  }
+  .featured-topic li:hover{
+    text-decoration: underline;
+  }
+  .featured-topic li::before{
+    position: relative;
+      content: "_ ";
+      color: red;
+    }
+    .featured-topic #north-east{
+        color: rgb(94, 53, 0);
+        margin-left: 10px;
+    }
+    .featured-topic #north-east:hover{
+        color: rgb(255, 0, 0);
+        height: 20px;
+    }
