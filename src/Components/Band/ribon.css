@@ -1,4 +1,5 @@
 .ribbon-container{
+    z-index: 99999;
     display: flex;
     flex-direction: column;
     align-items: center;

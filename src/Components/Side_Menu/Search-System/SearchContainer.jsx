@@ -6,7 +6,7 @@ import './SearchContainer.css';
 // SearchBar Component
 const SearchBar = ({ setResults }) => {
   const [typeEffect] = useTypewriter({
-    words: ['Hello this is AB', 'type something here'],
+    words: ['Search somthing new', 'Learn somthing New', 'Created by AB'],
     loop: {},
     typeSpeed: 80,
     deleteSpeed: 20,
