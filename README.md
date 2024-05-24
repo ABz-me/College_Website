@@ -59,7 +59,7 @@ If you have any suggestions or ideas for improvements, please feel free to comme
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+I don't have any 😅
 
 ## Contact
 
